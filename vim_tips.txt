@@ -1,0 +1,37 @@
+G - go to end of file
+1G or gg - go to beginning of file
+
+vim navigation:
+http://vim.wikia.com/wiki/Moving_around
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+While in command mode:
+
+Delete a range of lines:
+
+In vi do
+
+:1,$d
+to delete all lines.
+
+The : introduces a command (and moves the cursor to the bottom).
+The 1,$ is an indication of which lines the following command (d) should work on. In this case the range from line one to the last line (indicated by $, so you don't need to know the number of lines in the document).
+The final d stands for delete the indicated lines.
+
+There is a shorter form (:%d) but I find myself never using it. The :1,$d can be more easily "adapted" to e.g. :4,$-2d leaving only the first 3 and last 2 lines, deleting the rest.
+
+ctrl+v for visual mode (character)
+shift+v for visual mode (line)
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+While in visual mode:
+> for indent
+<< for delete indent
+I# for commenting multiple lines
+x for deleting multiple characters
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+While in insert mode:
+ctrl+n autocomplete by searching forward
+ctrl+p autocomplete by searching backwards
+
