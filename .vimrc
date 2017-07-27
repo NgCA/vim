@@ -1,6 +1,5 @@
 set number
 syntax on
-set hlsearch
 set ruler
 " use F5 to toggle numbered lines
 map <F5> :set number!<CR><Esc>
