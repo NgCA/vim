@@ -23,6 +23,14 @@ There is a shorter form (:%d) but I find myself never using it. The :1,$d can be
 ctrl+v for visual mode (character)
 shift+v for visual mode (line)
 
+remove highlighting of search matches
+:nohlsearch
+
+prepend no to switch option off
+e.g. :set nohlsearch
+
+CTRL-D
+show list of commands
 +++++++++++++++++++++++++++++++++++++++++++++++++
 While in visual mode:
 > for indent

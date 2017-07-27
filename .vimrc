@@ -10,3 +10,9 @@ map <F4> :set list!<CR><Esc>
 set listchars=tab:\|\ ,eol:$
 " shows documentation of perl command under cursor using K (shift+k)
 set keywordprg=perdoc\ -f
+" highlight search results
+set hls
+" ignore case in searches
+set ic
+" show partial match in searches
+set is
