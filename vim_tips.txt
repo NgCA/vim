@@ -24,6 +24,10 @@ Use * to search for word under cursor
 
 Move to older position: CTRL-O
 Move to next position: CTRL-I
+
+Navigate between tabs:
+Go to next tab "gt"
+Go to previous tab "gT"
 +++++++++++++++++++++++++++++++++++++++++++++++++
 Interesting vim man pages:
 
@@ -57,6 +61,16 @@ e.g. :set nohlsearch
 
 CTRL-D
 show list of commands
+
+Multiple windows:
+Horizontal:
+split [filename]
+Vertical:
+vsplit [filename]
+
+Multiple tabs:
+Open new tab ":tabnew"
+Close tab ":tabc"
 +++++++++++++++++++++++++++++++++++++++++++++++++
 While in visual mode:
 > for indent
