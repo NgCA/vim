@@ -1,9 +1,35 @@
+While in normal mode:
+
 G - go to end of file
 1G or gg - go to beginning of file
 
 vim navigation:
 http://vim.wikia.com/wiki/Moving_around
 
+Scrolling:
+Scroll half screen up: CTRL-U
+Scroll half screen down: CTRL-D
+
+Scroll one line up: CTRL-E
+Scroll one line down: CTRL-Y
+
+Scroll whole screen down: CTRL-F
+Scroll whole screen up: CTRL-B
+
+Redraw current line at center of page: zz
+Redraw current line at top of page: z<CR>
+Redraw current line at bottom of page: zb
+
+Use * to search for word under cursor
+
+Move to older position: CTRL-O
+Move to next position: CTRL-I
++++++++++++++++++++++++++++++++++++++++++++++++++
+Interesting vim man pages:
+
+autocomplete documentation in ins-completion
+to view documentation:
+:help ins-completion
 +++++++++++++++++++++++++++++++++++++++++++++++++
 While in command mode:
 

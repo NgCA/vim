@@ -16,3 +16,10 @@ set hls
 set ic
 " show partial match in searches
 set is
+" Display all matching files when we tab complete
+set wildmenu
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=**
+" show commands entered
+set showcmd
