@@ -28,6 +28,10 @@ Move to next position: CTRL-I
 Navigate between tabs:
 Go to next tab "gt"
 Go to previous tab "gT"
+
+Move to matching braces:
+%
+
 +++++++++++++++++++++++++++++++++++++++++++++++++
 Interesting vim man pages:
 
